@@ -1,0 +1,26 @@
+# Checklist finale
+
+- [ ] `.env.local` non è su GitHub.
+- [ ] `GROQ_API_KEY` è presente solo come variabile server.
+- [ ] `SUPABASE_SECRET_KEY` oppure `SUPABASE_SERVICE_ROLE_KEY` è presente solo su server/Vercel.
+- [ ] `RATE_LIMIT_SECRET` è impostato.
+- [ ] `supabase-schema.sql` è stato eseguito senza errori.
+- [ ] `/api/health` restituisce `ok: true`.
+- [ ] Chat: date e giorni della settimana sono coerenti.
+- [ ] Chat: "e il 19?" dopo "18 ottobre" viene interpretato correttamente.
+- [ ] Chat: disponibilità viene verificata dal database.
+- [ ] Chat: nessuna conferma falsa di appuntamento.
+- [ ] Prenotazione: domenica e lunedì rifiutati.
+- [ ] Prenotazione: date passate rifiutate.
+- [ ] Prenotazione: orari passati rifiutati.
+- [ ] Prenotazione: durata oltre le 19:30 rifiutata.
+- [ ] Prenotazione: doppia sovrapposizione gestita con HTTP 409.
+- [ ] Prezzi "da €" visualizzati come stima/a partire da.
+- [ ] Privacy: titolare, email, indirizzo, retention e base giuridica completati con dati reali.
+- [ ] `NEXT_PUBLIC_SITE_URL` punta al dominio pubblico.
+- [ ] `robots.txt` e `sitemap.xml` funzionano.
+- [ ] OG image generata da `app/opengraph-image.tsx` funziona.
+- [ ] Mobile Safari testato.
+- [ ] Desktop Safari/Chrome testati.
+- [ ] `npm run lint` passa.
+- [ ] `npm run build` passa.
