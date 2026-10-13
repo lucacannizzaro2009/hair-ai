@@ -3132,23 +3132,15 @@ export default function Home() {
                   </div>
 
                   <input
-  type="text"
-  value={input}
-  onChange={(event) => setInput(event.target.value)}
-  onFocus={(e) => {
-    // Forza lo scroll a non muovere la pagina in modo anomalo su iOS
-    setTimeout(() => {
-      window.scrollTo(0, window.scrollY);
-    }, 100);
-  }}
-  placeholder="Scrivi la tua domanda..."
-  disabled={loading}
-  aria-label="Scrivi una domanda"
-  maxLength={1000}
-  className="w-full bg-transparent outline-none text-[16px]"
-/>
-
-
+                    type="text"
+                    value={input}
+                    onChange={(event) => setInput(event.target.value)}
+                    placeholder="Scrivi la tua domanda..."
+                    disabled={loading}
+                    aria-label="Scrivi una domanda"
+                    maxLength={1000}
+                    className="w-full bg-zinc-950 outline-none text-[16px] pb-6"
+                  />
 
                   <button
                     type="submit"
