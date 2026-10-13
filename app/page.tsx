@@ -3131,23 +3131,21 @@ export default function Home() {
                     →
                   </div>
 
-                 <input
+                  <input
   type="text"
-  style={{ fontSize: '16px' }}
   value={input}
   onChange={(event) => setInput(event.target.value)}
-    onFocus={() => {
-    document.body.style.overflow = 'hidden';
+  onFocus={(e) => {
+    // Forza lo scroll a non muovere la pagina in modo anomalo su iOS
+    setTimeout(() => {
+      window.scrollTo(0, window.scrollY);
+    }, 100);
   }}
-  onBlur={() => {
-    document.body.style.overflow = 'auto';
-  }}
-  
   placeholder="Scrivi la tua domanda..."
   disabled={loading}
   aria-label="Scrivi una domanda"
   maxLength={1000}
-  className="w-full bg-transparent outline-none text-base"
+  className="w-full bg-transparent outline-none text-[16px]"
 />
 
 
