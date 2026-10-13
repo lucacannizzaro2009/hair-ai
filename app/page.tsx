@@ -3137,7 +3137,8 @@ export default function Home() {
     disabled={loading}
     aria-label="Scrivi una domanda"
     maxLength={1000}
-    className="w-full bg-transparent outline-none text-sm text-zinc-900 placeholder:text-zinc-400 pr-10"
+    className="w-full bg-transparent border-none outline-none focus:outline-none focus:ring-0 text-sm text-zinc-900 placeholder:text-zinc-400 pr-10"
+
   />
 
   <button
