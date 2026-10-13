@@ -3136,12 +3136,13 @@ export default function Home() {
   style={{ fontSize: '16px' }}
   value={input}
   onChange={(event) => setInput(event.target.value)}
-  onFocus={() => {
+    onFocus={() => {
     document.body.style.overflow = 'hidden';
   }}
   onBlur={() => {
     document.body.style.overflow = 'auto';
   }}
+  
   placeholder="Scrivi la tua domanda..."
   disabled={loading}
   aria-label="Scrivi una domanda"
