@@ -41,6 +41,5 @@ input, textarea {
   /* Impedisce lo zoom automatico e lo scorrimento forzato di Safari su iOS quando si digita */
   input, textarea, select {
     font-size: 16px !important;
-    transform: translateZ(0);
   }
 }
