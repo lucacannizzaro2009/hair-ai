@@ -3132,6 +3132,7 @@ export default function Home() {
                   </div>
 
                   <input
+                  className="text-base"
                     value={
                       input
                     }
