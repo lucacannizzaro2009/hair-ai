@@ -3129,6 +3129,7 @@ export default function Home() {
   onSubmit={handleSubmit}
   className="relative flex items-center w-full bg-white/50 border border-zinc-200 rounded-2xl px-4 py-2"
 >
+
   <input
   type="text"
   value={input}
