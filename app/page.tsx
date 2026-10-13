@@ -3130,16 +3130,16 @@ export default function Home() {
   className="relative flex items-center w-full bg-white/50 border border-zinc-200 rounded-2xl px-4 py-2"
 >
   <input
-    type="text"
-    value={input}
-    onChange={(event) => setInput(event.target.value)}
-    placeholder="Scrivi la tua domanda..."
-    disabled={loading}
-    aria-label="Scrivi una domanda"
-    maxLength={1000}
-    className="w-full bg-transparent border-none outline-none focus:outline-none focus:ring-0 text-sm text-zinc-900 placeholder:text-zinc-400 pr-10"
+  type="text"
+  value={input}
+  onChange={(event) => setInput(event.target.value)}
+  placeholder="Scrivi la tua domanda..."
+  disabled={loading}
+  aria-label="Scrivi una domanda"
+  maxLength={1000}
+  className="w-full bg-transparent border-none outline-none focus:outline-none focus:ring-0 text-sm text-zinc-900 placeholder:text-zinc-400 pr-10"
+/>
 
-  />
 
   <button
     type="submit"
