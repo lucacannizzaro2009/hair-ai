@@ -17,3 +17,10 @@
   background: #3f3f46;
   border-radius: 9999px;
 }
+/* Fix per la tastiera e l'altezza dello schermo su mobile */
+html, body {
+  height: 100%;
+  height: 100dvh;
+  overflow-x: hidden;
+  overscroll-behavior-y: none;
+}
