@@ -19,7 +19,7 @@ export async function POST(request: Request) {
     
     // Calcola il prezzo stimato approssimativo o usa di default
     const estimatedTotal = serviceObj ? serviceObj.price : 25;
-    const priceIsFrom = serviceObj ? serviceObj.price_is_from : false;
+    const priceIsFrom = serviceObj ? serviceObj.priceFrom : false;
 
     // Crea la stringa ISO completa per start_at (es. 2026-10-12T14:00:00)
     const startAt = `${date}T${time}:00`;
