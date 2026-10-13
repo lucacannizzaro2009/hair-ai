@@ -3118,19 +3118,9 @@ export default function Home() {
                 </div>
 
                 <form
-                  className="hsm-chat-input"
-                  onSubmit={(
-                    event
-                  ) => {
-                    event.preventDefault();
-                    sendMessage();
-                  }}
+                  onSubmit={handleSubmit}
+                  className="grid grid-cols-[1fr_auto] items-center gap-2 bg-zinc-950 p-2 rounded-2xl border border-zinc-800"
                 >
-
-                  <div className="hsm-input-prefix">
-                    →
-                  </div>
-
                   <input
                     type="text"
                     value={input}
@@ -3139,20 +3129,28 @@ export default function Home() {
                     disabled={loading}
                     aria-label="Scrivi una domanda"
                     maxLength={1000}
-                    className="w-full bg-zinc-950 outline-none text-[16px] pb-6"
+                    className="w-full bg-transparent outline-none text-[16px] px-3 text-zinc-100 placeholder-zinc-500"
                   />
 
                   <button
                     type="submit"
-                    disabled={
-                      loading ||
-                      !input.trim()
-                    }
+                    disabled={loading || !input.trim()}
                     aria-label="Invia messaggio"
+                    className="flex items-center justify-center flex-shrink-0 w-10 h-10 rounded-full bg-zinc-900 text-white disabled:opacity-50"
                   >
-                    <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M7 17L17 7M17 7H7M17 7V17"/></svg>&#xFE0E;
+                    <svg
+                      className="w-4 h-4 text-zinc-900"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      strokeWidth="2.5"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                    >
+                      <line x1="22" y1="2" x2="11" y2="13"></line>
+                      <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+                    </svg>
                   </button>
-
                 </form>
 
                 <div className="hsm-chat-footer-note">
