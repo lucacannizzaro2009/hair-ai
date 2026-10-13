@@ -1847,7 +1847,7 @@ export default function Home() {
                 Esplora i servizi
 
                 <span>
-                  <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M7 17L17 7M17 7H7M17 7V17"/></svg>&#xFE0E;&#xFE0E;
+                  <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M7 17L17 7M17 7H7M17 7V17"/></svg>&#xFE0E;
                 </span>
               </button>
 
@@ -1899,7 +1899,7 @@ export default function Home() {
                   </p>
 
                   <i>
-                    <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M7 17L17 7M17 7H7M17 7V17"/></svg>&#xFE0E;&#xFE0E;
+                    <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M7 17L17 7M17 7H7M17 7V17"/></svg>&#xFE0E;
                   </i>
                 </div>
 
@@ -1919,7 +1919,7 @@ export default function Home() {
                   </p>
 
                   <i>
-                    <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M7 17L17 7M17 7H7M17 7V17"/></svg>&#xFE0E;&#xFE0E;
+                    <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M7 17L17 7M17 7H7M17 7V17"/></svg>&#xFE0E;
                   </i>
                 </div>
 
@@ -1939,7 +1939,7 @@ export default function Home() {
                   </p>
 
                   <i>
-                    <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M7 17L17 7M17 7H7M17 7V17"/></svg>&#xFE0E;&#xFE0E;
+                    <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M7 17L17 7M17 7H7M17 7V17"/></svg>&#xFE0E;
                   </i>
                 </div>
 
@@ -1958,7 +1958,7 @@ export default function Home() {
                   </p>
 
                   <i>
-                    <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M7 17L17 7M17 7H7M17 7V17"/></svg>&#xFE0E;&#xFE0E;
+                    <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M7 17L17 7M17 7H7M17 7V17"/></svg>&#xFE0E;
                   </i>
                 </div>
 
@@ -2000,7 +2000,7 @@ export default function Home() {
                   INIZIA IL TUO PERCORSO
 
                   <span>
-                    <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M7 17L17 7M17 7H7M17 7V17"/></svg>&#xFE0E;&#xFE0E;
+                    <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M7 17L17 7M17 7H7M17 7V17"/></svg>&#xFE0E;
                   </span>
                 </button>
 
@@ -2183,7 +2183,7 @@ export default function Home() {
                     </span>
 
                     <span>
-                      <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M7 17L17 7M17 7H7M17 7V17"/></svg>&#xFE0E;&#xFE0E;
+                      <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M7 17L17 7M17 7H7M17 7V17"/></svg>&#xFE0E;
                     </span>
                   </button>
 
@@ -2398,7 +2398,7 @@ export default function Home() {
                       </span>
 
                       <span className="service-arrow">
-                        <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M7 17L17 7M17 7H7M17 7V17"/></svg>&#xFE0E;&#xFE0E;
+                        <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M7 17L17 7M17 7H7M17 7V17"/></svg>&#xFE0E;
                       </span>
 
                     </div>
@@ -2486,7 +2486,7 @@ export default function Home() {
                         >
                           INIZIA
                           <span>
-                            <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M7 17L17 7M17 7H7M17 7V17"/></svg>&#xFE0E;&#xFE0E;
+                            <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M7 17L17 7M17 7H7M17 7V17"/></svg>&#xFE0E;
                           </span>
                         </button>
 
@@ -2707,7 +2707,7 @@ export default function Home() {
               >
                 PARLA CON AI
                 <span>
-                  <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M7 17L17 7M17 7H7M17 7V17"/></svg>&#xFE0E;&#xFE0E;
+                  <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M7 17L17 7M17 7H7M17 7V17"/></svg>&#xFE0E;
                 </span>
               </button>
 
@@ -2815,7 +2815,7 @@ export default function Home() {
                   </div>
 
                   <span>
-                    <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M7 17L17 7M17 7H7M17 7V17"/></svg>&#xFE0E;&#xFE0E;
+                    <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M7 17L17 7M17 7H7M17 7V17"/></svg>&#xFE0E;
                   </span>
 
                 </div>
@@ -3349,9 +3349,23 @@ export default function Home() {
                         </span>
 
                         <span className="booking-service-check">
-                          {selected
-                            ? "✓"
-                            : "<svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M7 17L17 7M17 7H7M17 7V17"/></svg>&#xFE0E;"}
+                          {selected ? (
+                            "✓"
+                          ) : (
+                            <svg
+                              className="w-4 h-4"
+                              fill="none"
+                              stroke="currentColor"
+                              viewBox="0 0 24 24"
+                            >
+                              <path
+                                strokeLinecap="round"
+                                strokeLinejoin="round"
+                                strokeWidth="2"
+                                d="M7 17L17 7M17 7H7M17 7V17"
+                              />
+                            </svg>
+                          )}
                         </span>
 
                       </button>
@@ -5639,7 +5653,7 @@ export default function Home() {
         }
 
         .hsm-page-heading h2 {
-          margin:
+         margin:
             18px
             0
             0;
