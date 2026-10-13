@@ -3131,26 +3131,18 @@ export default function Home() {
                     →
                   </div>
 
-                  <input
-                  className="text-base"
-                    value={
-                      input
-                    }
-                    onChange={(
-                      event
-                    ) =>
-                      setInput(
-                        event.target
-                          .value
-                      )
-                    }
-                    placeholder="Scrivi la tua domanda..."
-                    disabled={
-                      loading
-                    }
-                    aria-label="Scrivi una domanda"
-                    maxLength={1000}
-                  />
+                 <input
+  type="text"
+  style={{ fontSize: '16px' }}
+  value={input}
+  onChange={(event) => setInput(event.target.value)}
+  placeholder="Scrivi la tua domanda..."
+  disabled={loading}
+  aria-label="Scrivi una domanda"
+  maxLength={1000}
+  className="w-full bg-transparent outline-none text-base"
+/>
+
 
                   <button
                     type="submit"
